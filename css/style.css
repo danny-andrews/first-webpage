@@ -1,0 +1,338 @@
+/*
+Colors:
+
+black       - #000000
+white       - #FFFFFF
+grey-blue   - #708598
+grey-green  - #709C8E
+*/
+
+html, body
+{
+    height: 100%;
+    margin: 0px;
+    font-family: arial;
+    background-image: url('../images/foggy_forest.jpg');
+    background-size: cover;
+}
+
+h1
+{
+    color: white;
+    font-size: 23px;
+    margin: 10px 0px;
+}
+
+p
+{
+    color: white;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+p
+{
+    color: white;
+}
+
+span
+{
+    color: white;
+    margin: 0px 10px;
+}
+
+table
+{
+    text-align: center;
+    color: white;
+    margin: 16px auto;
+}
+
+fieldset
+{
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+legend
+{
+    border: 2px solid #708598;
+}
+
+audio
+{
+    margin-bottom: 20px;
+}
+
+span.form_error
+{
+    color: red;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    font-size: 75%;
+    margin: 0px;
+}
+
+table.form_data
+{
+    text-align: left;
+	float: left;
+    margin: auto;
+}
+
+a.dead_link
+{
+    text-decoration: line-through;
+}
+
+div.tab_area
+{
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+ul.tabset
+{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+ul.tabset li
+{
+    padding: 4px;
+    list-style: none;
+    float: left;
+}
+
+ul.tabset li a
+{
+    color: white;
+}
+
+li.default_tab
+{
+    background: #708598;
+}
+
+div.tab
+{
+    display: none;
+    clear: both;
+    background: #708598;
+    padding: 8px 8px;
+}
+
+div#about_us
+{
+    display: block;
+}
+
+ul.navigation
+{
+    margin: 0px 0px 0px -1px;
+    padding: 0px;
+    float: left;
+}
+
+ul.navigation li
+{
+    list-style-type: none;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 0px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    float: left;
+    background-image: url('../textures/escheresque.png');
+}
+
+ul.navigation li:hover
+{
+    background-image: url('../textures/low_contrast_linen.png');
+}
+
+ul.navigation li a
+{
+    padding: 20px 10px;
+    display: block;
+}
+
+ul.navigation li a:hover
+{
+     color: white;
+}
+
+ul.navigation li ul
+{
+    display: none;
+    padding: 0px;
+    margin-left: -1px;
+    position: absolute;
+}
+
+ul.navigation li:hover ul
+{
+    display: block;
+}
+
+ul.navigation li ul li
+{
+    float: none;
+    position: relative;
+}
+
+li#selected_nav_item
+{
+    background-image: url('../textures/low_contrast_linen.png');
+}
+
+ul.side li
+{
+    float: none;
+}
+
+a#image_link
+{
+    padding: 0px;
+    float: left;
+    height: 88px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+div#wrapper
+{
+    height: 100%;
+    overflow-y: auto;
+}
+
+div#header
+{
+    background-image: url('../textures/low_contrast_linen.png');
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+div#content
+{
+    clear: both;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+div#footer
+{
+    background-image: url('../textures/low_contrast_linen.png');
+    clear: both;
+    height: 16px;
+    padding-top: 4px;
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+table#author_data th
+{
+    padding: 4px;
+    background-color: #708598;
+    border: 1px solid black
+}
+
+table#author_data td
+{
+    padding: 4px;
+    border: 1px solid #708598;
+    background-color: black;
+}
+
+table#video_games th
+{
+    padding: 4px;
+    background-color: #709C8E;
+}
+
+table#video_games td
+{
+    padding: 4px;
+    background-color: black;
+}
+
+form.user_data
+{
+    color: white;
+    width: 550px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+img#clown_train
+{
+    width: 380px;
+    height: auto;
+    margin: 10px 10px;
+}
+
+img#flesh_baby
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+img#wrong_neighborhood
+{
+    float: right;
+    margin-left: 10px;
+}
+
+img#sprite
+{
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+
+div#scroll_area
+{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 12px auto;
+    color: white;
+}
+
+div#scroll_widget
+{
+    margin: auto;
+}
+
+img#up_arrow
+{
+    display: block;
+    margin: auto;
+}
+
+img#down_arrow
+{
+    display: block;
+    margin: auto;
+}
